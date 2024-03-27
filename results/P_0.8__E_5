@@ -1,0 +1,265 @@
+Fetching Dataset... Done!
+Creating Unique Features... Done!
+Starting main loop...
+Rappor starting...
+Round 0 Done - Estimates: [ 9127.86342029  5088.96071052  4184.02183723 12401.38138064]
+Round 1 Done - Estimates: [ 8957.84337929  5279.49647264  5507.02428642 11104.28218433]
+Round 2 Done - Estimates: [  603.78604717 13580.59493663   132.73879986 16458.88751346]
+Round 3 Done - Estimates: [8129.22336706 6050.06871527 8021.54782919 8543.95636842]
+Round 4 Done - Estimates: [13703.80693759   471.79845881 15019.05676498  1523.32935931]
+Round 5 Done - Estimates: [13160.60780174  1014.15079303 12917.80886731  3642.90272723]
+Round 6 Done - Estimates: [ 2882.97428944 11288.9324454   6135.07678404 10377.08067513]
+Round 7 Done - Estimates: [4904.99799576 9300.37968674 6886.58843457 9667.44999264]
+Round 8 Done - Estimates: [ 2327.84595175 11823.23239361  4020.5282381  12496.87440072]
+Round 9 Done - Estimates: [13242.19252347   878.8992202  16123.45501597   433.40938654]
+Round 10 Done - Estimates: [  774.41132544 13377.0006714    690.60250211 15831.02995383]
+Round 11 Done - Estimates: [12876.36758595  1264.73835837 14766.04229493  1777.47748565]
+Round 12 Done - Estimates: [12268.13642866  1886.66620626 10382.55143937  6142.631596  ]
+Round 13 Done - Estimates: [7952.40260058 6205.63624364 8652.71200875 7837.31078716]
+Calculating entropy scores... Done!
+[0.9866846691572864, 0.9972070549082507, 0.16298074766977105, 0.9981497832338118, 0.3467882178169589, 0.6136322892110083, 0.8737061776497076, 0.9603729042581395, 0.7357089924824226, 0.2548825302974384, 0.27681404175157304, 0.4662782536043584, 0.8293177281980191, 0.9949526830398732]
+Privacy score of:  0.6783911480913298  does not exceed target:  0.8
+Calculating gain scores... Done!
+Generalising feature  [2] ... Done!
+Rappor starting...
+Round 0 Done - Estimates: [ 9145.89152267  5108.70936898  4187.06560399 12419.22143663]
+Round 1 Done - Estimates: [ 8954.56121695  5246.16843341  5500.76307284 11097.91708537]
+Round 2 Done - Estimates: [30749.71713878     0.             0.             0.        ]
+Round 3 Done - Estimates: [8124.67502237 6046.31028566 8020.85180413 8541.68715372]
+Round 4 Done - Estimates: [13710.945288     480.8074153  15009.33773609  1551.8125662 ]
+Round 5 Done - Estimates: [13130.14946794  1009.99570372 12877.13292294  3629.18391701]
+Round 6 Done - Estimates: [ 2848.59067546 11295.24206788  6150.40041847 10383.36854883]
+Round 7 Done - Estimates: [4895.11970096 9255.9868636  6878.44832208 9649.85854342]
+Round 8 Done - Estimates: [ 2329.78742259 11809.15260275  4009.56330139 12481.01497959]
+Round 9 Done - Estimates: [13265.54874816   881.44731963 16117.18300294   431.68865809]
+Round 10 Done - Estimates: [  740.66824226 13357.28300568   674.75137911 15825.0093183 ]
+Round 11 Done - Estimates: [12883.91348916  1236.37966473 14734.24700861  1785.15066568]
+Round 12 Done - Estimates: [12231.21305888  1861.46257026 10355.56819911  6109.28417442]
+Round 13 Done - Estimates: [7956.70721023 6193.59128206 8646.07986807 7848.71649979]
+Calculating entropy scores... Found a generalised feature!
+Done!
+[0.986629996280125, 0.9972855214965425, 1, 0.9981465607078295, 0.3511798503115389, 0.6132763699298034, 0.8729977187745931, 0.960655170905114, 0.7356483707725613, 0.2548914655289307, 0.2702877175949011, 0.46458951969839635, 0.8280172576021878, 0.9949583630778053]
+Privacy score of:  0.7377545630485949  does not exceed target:  0.8
+Calculating gain scores... Found a generalised feature!
+Done!
+Generalising feature  [9] ... Done!
+Rappor starting...
+Round 0 Done - Estimates: [ 9141.19032923  5106.34271327  4197.00845587 12434.62862183]
+Round 1 Done - Estimates: [ 8918.4122893   5283.88416696  5507.95579439 11089.79601531]
+Round 2 Done - Estimates: [30733.20134268     0.             0.             0.        ]
+Round 3 Done - Estimates: [8145.25971863 6050.03333851 7997.18608298 8518.16336365]
+Round 4 Done - Estimates: [13723.94452501   486.42947231 15042.10128441  1532.02693521]
+Round 5 Done - Estimates: [13161.55029249  1022.26114431 12899.56576424  3632.21239292]
+Round 6 Done - Estimates: [ 2870.07773442 11270.87241788  6155.8832597  10383.11503145]
+Round 7 Done - Estimates: [4881.98210394 9258.4282678  6874.16056959 9657.18590446]
+Round 8 Done - Estimates: [ 2326.82613239 11821.03362076  4015.99669685 12484.66658397]
+Round 9 Done - Estimates: [30738.7048985     0.            0.            0.       ]
+Round 10 Done - Estimates: [  758.01281198 13390.33116257   663.35028258 15832.94088118]
+Round 11 Done - Estimates: [12922.69252997  1252.42568873 14767.35367119  1797.80341124]
+Round 12 Done - Estimates: [12267.6042608   1867.13899613 10360.66929597  6131.42104416]
+Round 13 Done - Estimates: [7914.62936236 6202.93265972 8653.74879782 7858.01362623]
+Calculating entropy scores... Found a generalised feature!
+Found a generalised feature!
+Done!
+[0.9865960177191545, 0.9971146229334144, 1, 0.9981037132951018, 0.34915953688305296, 0.6136672706593588, 0.8740817538540487, 0.9603317594608901, 0.7356192022769008, 1, 0.2708249699320207, 0.46653669406547027, 0.8284945402477133, 0.9951603482962481]
+Privacy score of:  0.7911207449730983  does not exceed target:  0.8
+Calculating gain scores... Found a generalised feature!
+Found a generalised feature!
+Done!
+Generalising feature  [10] ... Done!
+Rappor starting...
+Round 0 Done - Estimates: [ 9143.73127232  5118.10356908  4207.10070564 12417.47816364]
+Round 1 Done - Estimates: [ 8938.04867968  5276.9371376   5505.50916419 11087.81523423]
+Round 2 Done - Estimates: [30733.90765422     0.             0.             0.        ]
+Round 3 Done - Estimates: [8115.12046295 6039.1949112  7994.21864755 8536.55631907]
+Round 4 Done - Estimates: [13703.8924041    458.56499646 15001.26375941  1531.36547877]
+Round 5 Done - Estimates: [13137.57102449  1031.72290641 12887.54055467  3655.68552359]
+Round 6 Done - Estimates: [ 2880.88553714 11276.13538089  6158.21105031 10382.43686554]
+Round 7 Done - Estimates: [4865.88372048 9265.06836145 6891.20974862 9645.62019804]
+Round 8 Done - Estimates: [ 2330.16621542 11801.00251906  4042.29923277 12496.42010006]
+Round 9 Done - Estimates: [30745.59803263     0.             0.             0.        ]
+Round 10 Done - Estimates: [30733.49929417     0.             0.             0.        ]
+Round 11 Done - Estimates: [12880.88172581  1255.15815058 14745.77644608  1788.72505678]
+Round 12 Done - Estimates: [12243.49858426  1882.64446699 10362.58923543  6144.13338579]
+Round 13 Done - Estimates: [7914.38812726 6200.47445198 8651.85759446 7856.62473133]
+Calculating entropy scores... Found a generalised feature!
+Found a generalised feature!
+Found a generalised feature!
+Done!
+[0.9867173390876811, 0.9971930589598328, 1, 0.9981974471444712, 0.34632303435594647, 0.6163633272806498, 0.8744073371011764, 0.9603870997092327, 0.7372100065450791, 1, 1, 0.46659619901530447, 0.829796589745531, 0.9951518246809574]
+Privacy score of:  0.8434530902589902  does exceed target:  0.8
+Done!
+Generalising initial (non-unique) dataset... Generalising feature  2 ... Done!
+Done!
+Running AI models...
+(7500, 14)
+(22500, 14)
+[[1 1 1 ... 0 1 0]
+ [1 0 1 ... 0 1 1]
+ [0 0 1 ... 0 0 0]
+ ...
+ [1 0 1 ... 0 1 1]
+ [1 1 1 ... 1 0 1]
+ [0 1 1 ... 0 1 1]]
+[[1 1 1 ... 0 0 1]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]
+ ...
+ [1 0 1 ... 0 0 1]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 1 0 1]]
+[1 1 0 ... 1 1 0]
+[1 0 0 ... 0 1 1]
+Random Forest
+Fitting...
+Scoring...
+score on train: 0.7152444444444445
+Accuracy on test: 0.7154666666666667
+Confusion Matrix:
+[[2067 1310]
+ [ 824 3299]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.71      0.61      0.66      3377
+           1       0.72      0.80      0.76      4123
+
+    accuracy                           0.72      7500
+   macro avg       0.72      0.71      0.71      7500
+weighted avg       0.72      0.72      0.71      7500
+
+Sensitivity: 0.80
+Specificity: 0.61
+True Positive Count: 3299
+True Negative Count: 2067
+Decision Tree
+Fitting...
+Scoring...
+score on train: 0.7119555555555556
+Accuracy on test: 0.7126666666666667
+Confusion Matrix:
+[[1985 1392]
+ [ 763 3360]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.59      0.65      3377
+           1       0.71      0.81      0.76      4123
+
+    accuracy                           0.71      7500
+   macro avg       0.71      0.70      0.70      7500
+weighted avg       0.71      0.71      0.71      7500
+
+Sensitivity: 0.81
+Specificity: 0.59
+True Positive Count: 3360
+True Negative Count: 1985
+KNN
+Fitting...
+Scoring...
+score on train: 0.6996888888888889
+Accuracy on test: 0.6796
+Confusion Matrix:
+[[2208 1169]
+ [1234 2889]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.65      0.65      3377
+           1       0.71      0.70      0.71      4123
+
+    accuracy                           0.68      7500
+   macro avg       0.68      0.68      0.68      7500
+weighted avg       0.68      0.68      0.68      7500
+
+Sensitivity: 0.70
+Specificity: 0.65
+True Positive Count: 2889
+True Negative Count: 2208
+-------------------------------Ungeneralised data-----------------------
+Generalising initial (non-unique) dataset... Done!
+Running AI models...
+(7500, 14)
+(22500, 14)
+[[1 1 1 ... 0 1 0]
+ [1 0 1 ... 0 1 1]
+ [0 0 1 ... 0 0 0]
+ ...
+ [1 0 1 ... 0 1 1]
+ [1 1 1 ... 1 0 1]
+ [0 1 1 ... 0 1 1]]
+[[1 1 1 ... 0 0 1]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]
+ ...
+ [1 0 1 ... 0 0 1]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 1 0 1]]
+[1 1 0 ... 1 1 0]
+[1 0 0 ... 0 1 1]
+Random Forest
+Fitting...
+Scoring...
+score on train: 0.7192888888888889
+Accuracy on test: 0.7164
+Confusion Matrix:
+[[1966 1411]
+ [ 716 3407]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.58      0.65      3377
+           1       0.71      0.83      0.76      4123
+
+    accuracy                           0.72      7500
+   macro avg       0.72      0.70      0.71      7500
+weighted avg       0.72      0.72      0.71      7500
+
+Sensitivity: 0.83
+Specificity: 0.58
+True Positive Count: 3407
+True Negative Count: 1966
+Decision Tree
+Fitting...
+Scoring...
+score on train: 0.7119555555555556
+Accuracy on test: 0.7126666666666667
+Confusion Matrix:
+[[1985 1392]
+ [ 763 3360]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.59      0.65      3377
+           1       0.71      0.81      0.76      4123
+
+    accuracy                           0.71      7500
+   macro avg       0.71      0.70      0.70      7500
+weighted avg       0.71      0.71      0.71      7500
+
+Sensitivity: 0.81
+Specificity: 0.59
+True Positive Count: 3360
+True Negative Count: 1985
+KNN
+Fitting...
+Scoring...
+score on train: 0.7078222222222222
+Accuracy on test: 0.6894666666666667
+Confusion Matrix:
+[[2194 1183]
+ [1146 2977]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.65      0.65      3377
+           1       0.72      0.72      0.72      4123
+
+    accuracy                           0.69      7500
+   macro avg       0.69      0.69      0.69      7500
+weighted avg       0.69      0.69      0.69      7500
+
+Sensitivity: 0.72
+Specificity: 0.65
+True Positive Count: 2977
+True Negative Count: 2194

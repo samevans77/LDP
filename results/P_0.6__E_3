@@ -1,0 +1,195 @@
+Fetching Dataset... Done!
+Creating Unique Features... Done!
+Starting main loop...
+Rappor starting...
+Round 0 Done - Estimates: [10017.22189992  5780.18268032  4498.05678035 13444.38111613]
+Round 1 Done - Estimates: [ 9754.39329819  5981.31528803  5851.74037007 12047.55704106]
+Round 2 Done - Estimates: [  735.85477029 14991.5344904    201.8027314  17666.13296479]
+Round 3 Done - Estimates: [8950.67852436 6705.22352949 8569.75878466 9262.337182  ]
+Round 4 Done - Estimates: [14967.6425858    558.45165722 16050.93353654  1661.24233703]
+Round 5 Done - Estimates: [14458.44467709  1155.47349141 13769.84710127  4023.40417636]
+Round 6 Done - Estimates: [ 3265.43111206 12316.2298241   6683.88077518 11064.19784073]
+Round 7 Done - Estimates: [ 5442.66268251 10128.41911     7334.08112438 10441.54291336]
+Round 8 Done - Estimates: [ 2542.13078239 12988.59874113  4268.55735807 13404.09290206]
+Round 9 Done - Estimates: [14518.3506201    969.7656826  17284.44681597   389.01500597]
+Round 10 Done - Estimates: [  943.40420648 14658.81791074   727.57214324 17000.07101111]
+Round 11 Done - Estimates: [14152.43695149  1373.67347553 15851.3117573   1903.97480408]
+Round 12 Done - Estimates: [13444.55848933  2037.80834897 11084.5793817   6581.95367647]
+Round 13 Done - Estimates: [8673.43712555 6829.93716122 9286.00104849 8462.02155943]
+Calculating entropy scores... Done!
+[0.9859010321944939, 0.9962541461541847, 0.1838016341444467, 0.9984483426912568, 0.3537955302245438, 0.6222687651788631, 0.879463799742711, 0.9602354623258605, 0.732051295688892, 0.2467427531899435, 0.2869680567956983, 0.46416794926964544, 0.8267940784824213, 0.995352775115711]
+Privacy score of:  0.6808746872284767  does exceed target:  0.6
+Done!
+Generalising initial (non-unique) dataset... Done!
+Running AI models...
+(7500, 14)
+(22500, 14)
+[[1 0 1 ... 0 0 1]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 1 1]
+ ...
+ [1 1 1 ... 0 0 0]
+ [0 1 1 ... 0 1 0]
+ [1 1 1 ... 0 0 0]]
+[[0 0 1 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ [0 0 1 ... 0 0 1]
+ ...
+ [1 1 1 ... 0 1 1]
+ [0 1 1 ... 0 1 1]
+ [1 1 1 ... 0 0 0]]
+[0 1 1 ... 1 1 1]
+[0 1 1 ... 1 1 0]
+Random Forest
+Fitting...
+Scoring...
+score on train: 0.7167111111111111
+Accuracy on test: 0.7113333333333334
+Confusion Matrix:
+[[2007 1472]
+ [ 693 3328]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.58      0.65      3479
+           1       0.69      0.83      0.75      4021
+
+    accuracy                           0.71      7500
+   macro avg       0.72      0.70      0.70      7500
+weighted avg       0.72      0.71      0.71      7500
+
+Sensitivity: 0.83
+Specificity: 0.58
+True Positive Count: 3328
+True Negative Count: 2007
+Decision Tree
+Fitting...
+Scoring...
+score on train: 0.7116444444444444
+Accuracy on test: 0.7029333333333333
+Confusion Matrix:
+[[1990 1489]
+ [ 739 3282]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.57      0.64      3479
+           1       0.69      0.82      0.75      4021
+
+    accuracy                           0.70      7500
+   macro avg       0.71      0.69      0.69      7500
+weighted avg       0.71      0.70      0.70      7500
+
+Sensitivity: 0.82
+Specificity: 0.57
+True Positive Count: 3282
+True Negative Count: 1990
+KNN
+Fitting...
+Scoring...
+score on train: 0.7101777777777778
+Accuracy on test: 0.6828
+Confusion Matrix:
+[[2131 1348]
+ [1031 2990]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.61      0.64      3479
+           1       0.69      0.74      0.72      4021
+
+    accuracy                           0.68      7500
+   macro avg       0.68      0.68      0.68      7500
+weighted avg       0.68      0.68      0.68      7500
+
+Sensitivity: 0.74
+Specificity: 0.61
+True Positive Count: 2990
+True Negative Count: 2131
+-------------------------------Ungeneralised data-----------------------
+Generalising initial (non-unique) dataset... Done!
+Running AI models...
+(7500, 14)
+(22500, 14)
+[[1 0 1 ... 0 0 1]
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 1 1]
+ ...
+ [1 1 1 ... 0 0 0]
+ [0 1 1 ... 0 1 0]
+ [1 1 1 ... 0 0 0]]
+[[0 0 1 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ [0 0 1 ... 0 0 1]
+ ...
+ [1 1 1 ... 0 1 1]
+ [0 1 1 ... 0 1 1]
+ [1 1 1 ... 0 0 0]]
+[0 1 1 ... 1 1 1]
+[0 1 1 ... 1 1 0]
+Random Forest
+Fitting...
+Scoring...
+score on train: 0.7140888888888889
+Accuracy on test: 0.7078666666666666
+Confusion Matrix:
+[[2085 1394]
+ [ 797 3224]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.60      0.66      3479
+           1       0.70      0.80      0.75      4021
+
+    accuracy                           0.71      7500
+   macro avg       0.71      0.70      0.70      7500
+weighted avg       0.71      0.71      0.70      7500
+
+Sensitivity: 0.80
+Specificity: 0.60
+True Positive Count: 3224
+True Negative Count: 2085
+Decision Tree
+Fitting...
+Scoring...
+score on train: 0.7116444444444444
+Accuracy on test: 0.7029333333333333
+Confusion Matrix:
+[[1990 1489]
+ [ 739 3282]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.57      0.64      3479
+           1       0.69      0.82      0.75      4021
+
+    accuracy                           0.70      7500
+   macro avg       0.71      0.69      0.69      7500
+weighted avg       0.71      0.70      0.70      7500
+
+Sensitivity: 0.82
+Specificity: 0.57
+True Positive Count: 3282
+True Negative Count: 1990
+KNN
+Fitting...
+Scoring...
+score on train: 0.7101777777777778
+Accuracy on test: 0.6828
+Confusion Matrix:
+[[2131 1348]
+ [1031 2990]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.61      0.64      3479
+           1       0.69      0.74      0.72      4021
+
+    accuracy                           0.68      7500
+   macro avg       0.68      0.68      0.68      7500
+weighted avg       0.68      0.68      0.68      7500
+
+Sensitivity: 0.74
+Specificity: 0.61
+True Positive Count: 2990
+True Negative Count: 2131
